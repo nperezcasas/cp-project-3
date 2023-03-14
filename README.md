@@ -19,6 +19,11 @@ The following **optional** features are implemented:
 - [ ] Make an additional network call to another end-point.    
 - [ ] Allow users to scroll when context items are off-screen (table view implemention)
 
+The following **additional** features are implemented:
+
+- [X] Made the height 1.5 * Width so that it looks like a grid with rectangles.
+- [X] General styling changes.
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
