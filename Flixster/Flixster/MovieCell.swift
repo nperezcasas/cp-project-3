@@ -48,7 +48,8 @@ class MovieCell: UITableViewCell {
 
         // Load image async via Nuke library image loading helper method
         
-        Nuke.loadImage(with: movie.poster_path, into: poster_pathImage)
+        //let imageUrl = URL(string: "https://image.tmdb.org/t/p/w150" + movie.poster_path.absoluteString)!
+        Nuke.loadImage(with: URL(string: "https://image.tmdb.org/t/p/w500/" + movie.poster_path.absoluteString)!, into: poster_pathImage)
         //Nuke.loadImage(with: movie.poster_path, into: poster_pathImage)
     }
 

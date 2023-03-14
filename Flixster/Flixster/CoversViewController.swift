@@ -21,10 +21,10 @@ class CoversViewController: UIViewController, UICollectionViewDataSource {
             let cover = covers[indexPath.item]
 
             // Get the artwork image url
-            let imageUrl = URL(string:"https://image.tmdb.org/t/p/w150" + cover.poster_path.absoluteString)
+            //let imageUrl = URL(string:"https://image.tmdb.org/t/p/w150" + cover.poster_path.absoluteString)!
 
             // Set the image on the image view of the cell
-            Nuke.loadImage(with: imageUrl!, into: cell.coverImageView)
+            Nuke.loadImage(with: URL(string:"https://image.tmdb.org/t/p/w500/" + cover.poster_path.absoluteString)!, into: cell.coverImageView)
 
             return cell
     }

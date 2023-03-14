@@ -4,13 +4,13 @@ Submitted by: **Nuria Perez Casas**
 
 **Flixter 2** is an app that introduces networking and gets data from an online API and displays it in the application. If you click on a specific movie, it shows extra data. There is also a poster view of all the available movies.  
 
-Time spent: **4** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] Implement network call and table view to display a list of movies currently playing (title, description, image(not displaying image))
+- [X] Implement network call and table view to display a list of movies currently playing (title, description, image)
 - [X] App has a collection view with the same list of movies
 - [X] Uses a tab bar controller to switch between collection view and table view screens
  
@@ -19,15 +19,11 @@ The following **optional** features are implemented:
 - [ ] Make an additional network call to another end-point.    
 - [ ] Allow users to scroll when context items are off-screen (table view implemention)
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-![](flixter2-demo-1.gif)
+![](flixter2-demo-2.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [LICEcap](https://www.cockos.com/licecap/) for macOS and Windows
@@ -38,7 +34,7 @@ GIF created with [LICEcap](https://www.cockos.com/licecap/) for macOS and Window
 
 ## Notes
 
-Describe any challenges encountered while building the app. Not able to find a place to store a baseURL so that the images path is correct. 
+
 
 ## License
 

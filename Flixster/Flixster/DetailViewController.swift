@@ -26,10 +26,8 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Load the image located at the `artworkUrl100` URL and set it on the image view.
-        Nuke.loadImage(with: movie.backdrop_path, into: detailImage)
-        //let baseURL = URL(string: "https://image.tmdb.org/t/p/w150")
-//        let imageURL = URL(string: movie.backdrop_path.absoluteString, relativeTo: baseURL)!
-//        Nuke.loadImage(with: imageURL, into: detailImage)
+        Nuke.loadImage(with: URL(string: "https://image.tmdb.org/t/p/w500/" + movie.backdrop_path.absoluteString)!, into: detailImage)
+
             // Set labels with the associated movie values.
         detailTitleLabel.text = movie.title
         detailVotesLabel.text = String(movie.vote_count) + " Votes"
