@@ -2,7 +2,7 @@
 
 Submitted by: **Nuria Perez Casas**
 
-**Flixter 2 ** is an app that introduces networking and gets data from an online API and displays it in the application. If you click on a specific movie, it shows extra data. There is also a poster view of all the available movies.  
+**Flixter 2** is an app that introduces networking and gets data from an online API and displays it in the application. If you click on a specific movie, it shows extra data. There is also a poster view of all the available movies.  
 
 Time spent: **4** hours spent in total
 
